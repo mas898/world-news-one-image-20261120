@@ -1,0 +1,131 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: 1024px;
+  height: 1024px;
+  overflow: hidden;
+  background: #f6f1e7;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+.page {
+  width: 1024px;
+  height: 1024px;
+  background: #f6f1e7;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  height: 150px;
+  background: #14213d;
+  color: #fff;
+  padding: 20px 40px 0 40px;
+  border-bottom: 5px solid #c9a227;
+}
+
+.eyebrow {
+  font-size: 15px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #c9a227;
+  font-weight: 700;
+}
+
+.masthead h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 58px;
+  line-height: 1.05;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.subhead {
+  font-size: 16px;
+  color: #d7dce6;
+  margin-top: 5px;
+}
+
+/* ---------- stories ---------- */
+
+.stories {
+  height: 820px;
+}
+
+.story {
+  height: 164px;
+  display: flex;
+  align-items: center;
+  padding: 0 36px;
+  border-bottom: 1px solid #d8d0bd;
+  position: relative;
+}
+
+.story:last-child { border-bottom: none; }
+
+.icon {
+  flex: 0 0 84px;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 26px;
+}
+
+.icon svg {
+  width: 48px;
+  height: 48px;
+}
+
+.text { flex: 1; }
+
+.tag {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--c);
+  margin-bottom: 5px;
+}
+
+.text h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 27px;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.text p {
+  font-size: 16.5px;
+  line-height: 1.35;
+  color: #33302a;
+}
+
+.source {
+  position: absolute;
+  right: 36px;
+  bottom: 12px;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #8a8371;
+}
+
+/* ---------- footer ---------- */
+
+.foot {
+  height: 54px;
+  background: #14213d;
+  color: #e8e4d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15.5px;
+  letter-spacing: 0.4px;
+}
