@@ -16,7 +16,7 @@ world news in one image" bounty, $250 in USDC.
 2. **Europe — Brussels: UK and EU set to agree youth travel deal.** Up to
    100,000 young people a year could live, work and study on each side under
    a youth mobility scheme expected at Friday's UK–EU summit. (BBC News)
-3. **Business — Games: GTA 6 smashes launch records.** An estimated 24.5
+3. **Business — Games: GTA 6 smashes launch records.** An estimated 24.6
    million copies sold on day one, worth about $2.36bn — the biggest
    entertainment launch ever, analysts say. Rockstar has yet to confirm
    official figures. (BBC News)
